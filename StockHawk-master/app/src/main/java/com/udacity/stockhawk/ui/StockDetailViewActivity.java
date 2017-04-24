@@ -1,6 +1,7 @@
 package com.udacity.stockhawk.ui;
 
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
@@ -9,6 +10,7 @@ import android.support.v4.content.CursorLoader;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,18 +21,22 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
 
-
 import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.*;
 
 import com.udacity.stockhawk.data.PrefUtils;
+import com.udacity.stockhawk.history_datatype.Stock_DataType;
+import com.udacity.stockhawk.network.ConnectingNetwork;
 import com.udacity.stockhawk.sync.QuoteSyncJob;
 
+
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
 
 public class StockDetailViewActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 
@@ -42,7 +48,7 @@ public class StockDetailViewActivity extends AppCompatActivity implements Loader
     @BindView(R.id.tvSymbolName) TextView tvSymbol;
     @BindView(R.id.chart)
     LineChart chart;
-
+    Stock_DataType[] stockHistoryData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +70,7 @@ public class StockDetailViewActivity extends AppCompatActivity implements Loader
             //Toast.makeText(this, symbol+"__________________", Toast.LENGTH_SHORT).show();
             tvSymbol.setText(symbol);
         }
+
         Cursor c = accessData(symbol);
         if (c.getCount()<=0 || c.equals(null))
         {
@@ -71,7 +78,6 @@ public class StockDetailViewActivity extends AppCompatActivity implements Loader
         }
         else
         {
-
             if (c.moveToFirst()) {
                 while (!c.isAfterLast()) {
                    price = c.getString(c.getColumnIndex("price"));
@@ -80,11 +86,19 @@ public class StockDetailViewActivity extends AppCompatActivity implements Loader
             }
             Toast.makeText(this, price, Toast.LENGTH_SHORT).show();
 
-            getHistoryData(symbol);
+
+            Context context = StockDetailViewActivity.this;
+
+
+            GetHistory get= new GetHistory();
+            stockHistoryData = get.getHistoryData(context,symbol);
         }
-//        getSupportLoaderManager().initLoader(STOCK_LOADER, null);
 
+        if(stockHistoryData!=null) {
+            String s = stockHistoryData[0].ticker;
 
+            Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
+        }
         List<Entry> entries = new ArrayList<Entry>();
          entries.add(new Entry(3,2));
         LineDataSet dataSet = new LineDataSet(entries, "Label"); // add entries to dataset

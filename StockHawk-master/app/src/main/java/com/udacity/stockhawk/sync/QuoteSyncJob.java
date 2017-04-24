@@ -1,5 +1,6 @@
 package com.udacity.stockhawk.sync;
 
+import android.app.Activity;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
@@ -8,9 +9,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 import com.udacity.stockhawk.data.Contract;
 import com.udacity.stockhawk.data.PrefUtils;
+import com.udacity.stockhawk.ui.MainActivity;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -26,7 +31,7 @@ import yahoofinance.histquotes.HistoricalQuote;
 import yahoofinance.histquotes.Interval;
 import yahoofinance.quotes.stock.StockQuote;
 
-public final class QuoteSyncJob {
+public final class QuoteSyncJob extends AppCompatActivity{
 
     private static final int ONE_OFF_ID = 2;
     private static final String ACTION_DATA_UPDATED = "com.udacity.stockhawk.ACTION_DATA_UPDATED";
@@ -66,15 +71,8 @@ public final class QuoteSyncJob {
             ArrayList<ContentValues> quoteCVs = new ArrayList<>();
 
             while (iterator.hasNext()) {
-
-                String symbol = iterator.next();
-
-/*
-                if (quotes.get(symbol).getName() != null || quotes.get(symbol).getName() != "N/A") {
-*/
-
+                    String symbol = iterator.next();
                     Stock stock = quotes.get(symbol);
-
 
                     //we need to check if the stock we have got from quotes is valid or not
                 StockQuote quote = stock.getQuote();
@@ -107,11 +105,12 @@ public final class QuoteSyncJob {
                         quoteCVs.add(quoteCV);
 
                     } else {
-                        Toast.makeText(context,"NO RELATED STOCK", Toast.LENGTH_SHORT).show();
                         PrefUtils.removeStock(context, stock.getSymbol());
+                        showNoData(context);
+                        Toast.makeText(context,"NO RELATED STOCK", Toast.LENGTH_SHORT).show();
                     }
-
             }
+
 
             context.getContentResolver()
                     .bulkInsert(
@@ -124,6 +123,10 @@ public final class QuoteSyncJob {
         } catch (IOException exception) {
             Timber.e(exception, "Error fetching stock quotes");
         }
+    }
+    public static void showNoData(Context c)
+    {
+        Toast.makeText(c, "YED ZVYA NEAT SEARCH KARR", Toast.LENGTH_SHORT).show();
     }
 
     private static void schedulePeriodic(Context context) {
@@ -144,7 +147,6 @@ public final class QuoteSyncJob {
 
         schedulePeriodic(context); //this is for job scheduling
         syncImmediately(context); //synchronization
-
     }
 
     public static synchronized void syncImmediately(Context context) {
@@ -152,7 +154,7 @@ public final class QuoteSyncJob {
         ConnectivityManager cm =(ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
 
-        if (networkInfo != null && networkInfo.isConnectedOrConnecting()) // if newtwork is working/connectd then it will start an intent
+        if (networkInfo != null && networkInfo.isConnectedOrConnecting()) // if newtwork is working/connected then it will start an intent
         {
             Intent nowIntent = new Intent(context, QuoteIntentService.class);
             context.startService(nowIntent);

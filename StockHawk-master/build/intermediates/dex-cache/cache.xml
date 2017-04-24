@@ -12,197 +12,8 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9316996b64994f6eb954c2c67c48219c869a3a16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\20.0\89507701249388e1ed5ddcf8c41f4ce1be7831ef\guava-20.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-20.0_f521a9ffb625dc30f09b8fd046299b64031a63f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_f9fb6c0a9525a3f4f6bd8257ba6ef29657f6a2fe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_f294b926a73c48825343aa18648ae8db930d7d0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_c34fa08ad1fdcb0da704617e42f65805fc821424\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_4a66e776f6a3f02174f2489bddd2c3103cdd805f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_434ebafe31c44523860805c5af003f8a20d2847c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_eec08716e891be5021a463b0044bc82377df9b00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_b119240e7fdeef6f9bb6ec675e5f517b44a4ec98\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.4.0_c7e6999dc1edac1973a9a70b70958f6b49e3fe3f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_aafb8050b29dcfc2ca61037b6403432da158c413\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_187a799092805e0f420839fe308c73e3bd1fbbae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_f9fb6c0a9525a3f4f6bd8257ba6ef29657f6a2fe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_528e720f24afa920dea1ec5e55128906f9dc79f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7ba183035d3cb3f3502deaded6e77789389171a">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e330a91087a00fc3cc7320d67afcdfa91337d77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9316996b64994f6eb954c2c67c48219c869a3a16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.yahoofinance-api\YahooFinanceAPI\3.5.0\614af927df86e3e5b925bb14daed8600886908e8\YahooFinanceAPI-3.5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="614af927df86e3e5b925bb14daed8600886908e8">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\YahooFinanceAPI-3.5.0_1eebb5d2598701be3055286869693d2d9701e095\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_2fb58e02b3ea7f5b52514c9925d3f2263e2d3ffe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_ec28583886d9a81fb024a2c12b1818fb70c26bea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\net.sf.opencsv\opencsv\2.3\c23708cdb9e80a144db433e23344a788a1fd6599\opencsv-2.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\opencsv-2.3_6250f0a1292f98de638b8a4047ec4d6abaf72a5d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_ebf91da184f4dd333e15fad838c68e8788561cf3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.4.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="76182d2ede06926e942e5a947a130b915b83a489">
@@ -219,21 +30,75 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
-        jumboMode="false"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_434ebafe31c44523860805c5af003f8a20d2847c\classes.dex" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9316996b64994f6eb954c2c67c48219c869a3a16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_aafb8050b29dcfc2ca61037b6403432da158c413\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_187a799092805e0f420839fe308c73e3bd1fbbae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_528e720f24afa920dea1ec5e55128906f9dc79f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_f294b926a73c48825343aa18648ae8db930d7d0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_f9fb6c0a9525a3f4f6bd8257ba6ef29657f6a2fe\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
         <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_c34fa08ad1fdcb0da704617e42f65805fc821424\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.2_c928c164ebf6fb409ef0e0cb263f498eabad74fa\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -241,13 +106,22 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="5ba268755a8fafad8e5da4aaa9b69a496723276a">
+        sha1="86429042db7d4a11f2eeef9f977b540534c3acfd">
         <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_de946f762df04323408fb48325437c3bcdf27d12\classes.dex" />
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.yahoofinance-api\YahooFinanceAPI\3.5.0\614af927df86e3e5b925bb14daed8600886908e8\YahooFinanceAPI-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="614af927df86e3e5b925bb14daed8600886908e8">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\YahooFinanceAPI-3.5.0_1eebb5d2598701be3055286869693d2d9701e095\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
@@ -255,12 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\StockHawk-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_187a799092805e0f420839fe308c73e3bd1fbbae\classes.dex" />
+        sha1="091c5998dc6d0da6569964455edf487b7e1ac5ed">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e330a91087a00fc3cc7320d67afcdfa91337d77\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,6 +156,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\net.sf.opencsv\opencsv\2.3\c23708cdb9e80a144db433e23344a788a1fd6599\opencsv-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\opencsv-2.3_6250f0a1292f98de638b8a4047ec4d6abaf72a5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_2fb58e02b3ea7f5b52514c9925d3f2263e2d3ffe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_ec28583886d9a81fb024a2c12b1818fb70c26bea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -297,87 +198,6 @@
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
         <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_4a66e776f6a3f02174f2489bddd2c3103cdd805f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_f294b926a73c48825343aa18648ae8db930d7d0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="76182d2ede06926e942e5a947a130b915b83a489">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.timber-timber-4.4.0_78bbd27d14c9bbc53f043272eca2374619b31f20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_aafb8050b29dcfc2ca61037b6403432da158c413\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_528e720f24afa920dea1ec5e55128906f9dc79f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\com.yahoofinance-api\YahooFinanceAPI\3.5.0\614af927df86e3e5b925bb14daed8600886908e8\YahooFinanceAPI-3.5.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="614af927df86e3e5b925bb14daed8600886908e8">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\YahooFinanceAPI-3.5.0_1eebb5d2598701be3055286869693d2d9701e095\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_0015a9672adc232024b2ceade60e9e419a32a180\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kmema\.gradle\caches\modules-2\files-2.1\net.sf.opencsv\opencsv\2.3\c23708cdb9e80a144db433e23344a788a1fd6599\opencsv-2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\opencsv-2.3_6250f0a1292f98de638b8a4047ec4d6abaf72a5d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_2fb58e02b3ea7f5b52514c9925d3f2263e2d3ffe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\StockHawk-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\StockHawk-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_ec28583886d9a81fb024a2c12b1818fb70c26bea\classes.dex" />
     </item>
 
 </items>

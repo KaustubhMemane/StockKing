@@ -12,10 +12,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import com.udacity.stockhawk.R;
+
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,8 +28,8 @@ import butterknife.ButterKnife;
 public class AddStockDialog extends DialogFragment {
 
     @SuppressWarnings("WeakerAccess")
-    @BindView(R.id.dialog_stock)
-    EditText stock;
+    @BindView(R.id.dialog_stock) AutoCompleteTextView stock;
+
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -36,10 +40,10 @@ public class AddStockDialog extends DialogFragment {
         @SuppressLint("InflateParams") View custom = inflater.inflate(R.layout.add_stock_dialog, null);
 
         ButterKnife.bind(this, custom);
-
         stock.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+
                 addStock();
                 return true;
             }

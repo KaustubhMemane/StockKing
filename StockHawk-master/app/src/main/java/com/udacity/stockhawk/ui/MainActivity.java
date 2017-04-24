@@ -1,6 +1,7 @@
 package com.udacity.stockhawk.ui;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     {
     private static final int STOCK_LOADER = 0;
     @SuppressWarnings("WeakerAccess")
-    @BindView(R.id.recycler_view) RecyclerView stockRecyclerView; // binding of view using butterknife injector
+    @BindView(R.id.recycler_view) RecyclerView stockRecyclerView; // view binding using butterknife injector
 
     @SuppressWarnings("WeakerAccess")
     @BindView(R.id.swipe_refresh) SwipeRefreshLayout swipeRefreshLayout; // binding of view using butterknife
@@ -47,6 +48,13 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     @Override
     public void onClick(String symbol) {
         Timber.d("Symbol clicked: %s", symbol);
+        Toast.makeText(this, symbol, Toast.LENGTH_SHORT).show();
+        Context context = MainActivity.this;
+        Class ReceivingObject = StockDetailViewActivity.class;
+        Intent newIntent = new Intent(context, ReceivingObject);
+
+        newIntent.putExtra("SYMBOL", symbol);
+        startActivity(newIntent);
     }
 
     @Override
@@ -65,8 +73,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         onRefresh();
 
         QuoteSyncJob.initialize(this); // asynctask execution // initializing data before using it
-
-
 
         getSupportLoaderManager().initLoader(STOCK_LOADER, null, this);
 
@@ -131,10 +137,13 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
-        return new CursorLoader(this,
+        return new CursorLoader(
+                this,
                 Contract.Quote.URI,
                 Contract.Quote.QUOTE_COLUMNS.toArray(new String[]{}),
-                null, null, Contract.Quote.COLUMN_SYMBOL);
+                null,
+                null,
+                Contract.Quote.COLUMN_SYMBOL);
     }
 
     @Override
