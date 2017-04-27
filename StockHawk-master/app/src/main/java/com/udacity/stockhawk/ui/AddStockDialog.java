@@ -28,7 +28,8 @@ import butterknife.ButterKnife;
 public class AddStockDialog extends DialogFragment {
 
     @SuppressWarnings("WeakerAccess")
-    @BindView(R.id.dialog_stock) AutoCompleteTextView stock;
+    @BindView(R.id.dialog_stock)
+    AutoCompleteTextView stock;
 
 
     @Override

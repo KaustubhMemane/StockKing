@@ -82,6 +82,7 @@ public final class QuoteSyncJob extends AppCompatActivity{
                         float price = quote.getPrice().floatValue();
                         float change = quote.getChange().floatValue();
                         float percentChange = quote.getChangeInPercent().floatValue();
+                        float previousChange = quote.getPreviousClose().floatValue();
 
                         // WARNING! Don't request historical data for a stock that doesn't exist!
                         // The request will hang forever X_x
@@ -102,8 +103,8 @@ public final class QuoteSyncJob extends AppCompatActivity{
                         quoteCV.put(Contract.Quote.COLUMN_PERCENTAGE_CHANGE, percentChange);
                         quoteCV.put(Contract.Quote.COLUMN_ABSOLUTE_CHANGE, change);
                         quoteCV.put(Contract.Quote.COLUMN_HISTORY, historyBuilder.toString());
-                        quoteCVs.add(quoteCV);
 
+                        quoteCVs.add(quoteCV);
                     } else {
                         PrefUtils.removeStock(context, stock.getSymbol());
                         showNoData(context);

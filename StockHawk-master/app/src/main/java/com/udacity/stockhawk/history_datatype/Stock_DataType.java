@@ -1,6 +1,5 @@
 package com.udacity.stockhawk.history_datatype;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -19,12 +18,11 @@ public class Stock_DataType {
     public String previousClosePrice;
     public String dateMin;
     public String dateMax;
-    List<String> series;
+    public List<Series_DataType> series;
 
     public Stock_DataType(String Mticker, String MCompanyName, String MExchange, String MUnit,
                           String MTimeStamp, String MFirstTrade, String MLastTrade, String MCurrency,
-                          String MPreviousClosePrice, String MDateMin, String MDateMax, List<String> MSeries)
-    {
+                          String MPreviousClosePrice, String MDateMin, String MDateMax, List<Series_DataType> MSeries) {
         this.ticker = Mticker;
         this.companyName = MCompanyName;
         this.exchangeName = MExchange;

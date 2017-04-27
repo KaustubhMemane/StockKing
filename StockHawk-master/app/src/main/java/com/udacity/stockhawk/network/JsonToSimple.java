@@ -2,6 +2,7 @@ package com.udacity.stockhawk.network;
 
 import android.content.Context;
 
+import com.udacity.stockhawk.history_datatype.Series_DataType;
 import com.udacity.stockhawk.history_datatype.Stock_DataType;
 
 import org.json.JSONArray;
@@ -34,20 +35,22 @@ public class JsonToSimple {
         String previousClosePrice;
         String dateMin;
         String dateMax;
-        List<String> series = null;
+        List<Series_DataType> series = new ArrayList<Series_DataType>(100);
 
-        String databaseLang="Database: ";
-        String os="Operating System: ";
-        String videos="Video: ";
+        String databaseLang = "Database: ";
+        String os = "Operating System: ";
+        String videos = "Video: ";
         String programmingLang = "Programming Language: ";
-        String webLang= "Web Services / Web Development: ";
+        String webLang = "Web Services / Web Development: ";
 
         String profileImageLink;
 
 
         String newStockJsonString = null;
         int lenght = StockJsonString.length();
-        newStockJsonString = StockJsonString.substring(31,lenght-2);
+        newStockJsonString = StockJsonString.substring(30, lenght - 2);
+
+        System.out.println(newStockJsonString);
 
 
         JSONObject stockDBJson = new JSONObject(newStockJsonString);
@@ -55,6 +58,7 @@ public class JsonToSimple {
         JSONObject dateDBJSON = stockDBJson.getJSONObject("Date");
         JSONObject rangesDBJSON = stockDBJson.getJSONObject("ranges");
         JSONArray seriesDBJsonArray = stockDBJson.getJSONArray("series");
+
 
         ticker = metaDBJson.getString("ticker");
         companyName = metaDBJson.getString("Company-Name");
@@ -69,12 +73,13 @@ public class JsonToSimple {
         dateMin = dateDBJSON.getString("min");
         dateMax = dateDBJSON.getString("max");
 
-        for(int i = 0;i<seriesDBJsonArray.length();i++)
-        {
-            series.add(i,seriesDBJsonArray.getString(i));
+        for (int i = 0; i < seriesDBJsonArray.length(); i++) {
+            series.add(i, new Series_DataType(seriesDBJsonArray.getJSONObject(i).getInt("Date"), seriesDBJsonArray.getJSONObject(i).getInt("close"),
+                    seriesDBJsonArray.getJSONObject(i).getInt("high"), seriesDBJsonArray.getJSONObject(i).getInt("low"),
+                    seriesDBJsonArray.getJSONObject(i).getInt("open"), seriesDBJsonArray.getJSONObject(i).getInt("volume")));
         }
 
-        parsedStockData[0] = new Stock_DataType(ticker,companyName,exchange, unit,
+        parsedStockData[0] = new Stock_DataType(ticker, companyName, exchange, unit,
                 timeStamp, firstTrade, lastTrade, currency, previousClosePrice, dateMin, dateMax, series);
 
         return parsedStockData;
